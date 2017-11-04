@@ -125,6 +125,7 @@ class Configuration implements ConfigurationInterface
                             ->scalarNode('password')->defaultValue('')->end()
                             ->scalarNode('charset')->defaultValue('utf8')->end()
                             ->scalarNode('collation')->defaultValue('utf8_unicode_ci')->end()
+                            ->scalarNode('port')->defaultValue('~')->end()
                             ->scalarNode('prefix')->defaultValue('')->end()
                         ->end()
                     ->end()
